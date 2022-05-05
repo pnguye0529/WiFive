@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.scss";
 import { images } from "../../images";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "../../scss/main.scss";
 const Hero = () => {
   return (
@@ -13,12 +13,13 @@ const Hero = () => {
               Welcome <br /> to Wi-Five
             </h1>
             <p className="hero__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Our map displays averaged Wi-Fi data in order to tell you which
+              locations are populated and which locations are not-so populated
+              on a given date and time.
             </p>
-            <button className="hero_btn"><Link to={'/Map'} >VIEW MAP</Link></button>
+            <button className="hero_btn">
+              <Link to={"/Map"}>VIEW MAP</Link>
+            </button>
           </div>
           <div className="hero__image">
             <picture>
