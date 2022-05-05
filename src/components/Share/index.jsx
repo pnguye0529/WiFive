@@ -44,7 +44,6 @@ export const SharePopover = () => {
     e.preventDefault();
 
     const ahref = window.location.href;
-    const encodedAhref = encodeURIComponent(ahref);
     var link;
 
     switch (e.currentTarget.id) {

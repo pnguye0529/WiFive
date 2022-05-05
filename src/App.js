@@ -69,6 +69,9 @@ function App() {
   const [heatMapTraffic, setHeatMapTraffic] = useState("low");
 
   useEffect(() => {
+    function heatMapDay() {};
+    function heatMapTime() {};
+    function heatMapTraffic() {};
     const getDefault = async () => {
       console.log(heatMapTime);
 
